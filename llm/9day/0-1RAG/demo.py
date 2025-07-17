@@ -14,7 +14,7 @@ import re
 from bs4 import BeautifulSoup
 from IPython.display import display,Code,Markdown
 
-client =OpenAI(
+client = OpenAI(
     # model = 'qwq-32b',
     base_url = 'https://dashscope.aliyuncs.com/compatible-mode/v1',
     api_key='sk-b053451148f44f6fa179583f03bcfed2',
