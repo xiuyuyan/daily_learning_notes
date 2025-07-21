@@ -17,5 +17,22 @@ tools = [
             },
             "required":["product_name"],
         }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "read_store_promotions",
+            "description": "Read the store's promotion document to find specific promotions related to the provided product name. This function scans a text document for any promotional entries that include the product name.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "product_name": {
+                        "type": "string",
+                        "description": "The name of the product to search for in the promotion document. The function returns the promotional details if found."
+                    }
+                },
+                "required": ["product_name"]
+            }
+        }
     }
 ]
