@@ -1,0 +1,8 @@
+{
+  "deepseek": {
+    "use_model": true,
+    "model_name": "deepseek-chat",
+    "temperature": 1.0,
+    "max_iterations": 20
+  }
+}
