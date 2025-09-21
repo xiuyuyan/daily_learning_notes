@@ -23,7 +23,7 @@ ylabel('幅度','FontSize',12)
 % 频谱
 xf=fft(x);
 Fs=-fs/2:fs/N:fs/2-fs/N;
-figure,plot(Fs,fftshift(abs(xf)));
-xlim([-20e4 20e4])
+figure,plot(Fs,abs(fftshift(xf)));
+xlim([-8e4 8e4]);
 xlabel('频率(Hz)','FontSize',12)
 ylabel('幅度','FontSize',12)

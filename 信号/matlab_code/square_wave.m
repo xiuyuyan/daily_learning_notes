@@ -1,5 +1,5 @@
 clc;clear all;close all;
-Tp=100e-6;
+Tp=100e-6;%脉冲宽度
 fs=10e6;
 %t=-Tp/2:1/fs:Tp/2-1/fs;
 Tr=1e-3;% 脉冲重复周期
